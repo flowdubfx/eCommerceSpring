@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="common" template="/WEB-INF/layout/header.jsp">
+		<put-attribute name="body" value="" />
+		<put-attribute name="slider" value="" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="Ecommerce shop" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+		<put-attribute name="slider" value="/WEB-INF/views/slider.jsp" />
+	</definition>
+
+	<definition name="product" extends="common">
+		<put-attribute name="title" value="Product info" />
+		<put-attribute name="body" value="/WEB-INF/views/product.jsp" />
+	</definition>
+
+	<definition name="category" extends="common">
+		<put-attribute name="title" value="Category info" />
+		<put-attribute name="body" value="/WEB-INF/views/category.jsp" />
+	</definition>
+
+	<definition name="sign" extends="common">
+		<put-attribute name="title" value="Sign in" />
+		<put-attribute name="body" value="/WEB-INF/views/sign.jsp" />
+	</definition>
+	
+	<definition name="register" extends="common">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/WEB-INF/views/register.jsp" />
+	</definition>
+	<definition name="cart" extends="common">
+		<put-attribute name="title" value="Cart" />
+		<put-attribute name="body" value="/WEB-INF/views/cart.jsp" />
+	</definition>
+
+
+</tiles-definitions>       
+       
