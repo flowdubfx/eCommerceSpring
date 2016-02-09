@@ -1,14 +1,10 @@
 # eCommerce Spring
-
 Used:
 <ul>
   <li>Spring MVC</li>
-  <li>Spring MVC</li>
-  <li>Spring MVC</li>
-  <li>Spring MVC</li>
+  <li>Spring Data JPA</li>
+  <li>Apache Tiles </li>
+  <li>Bootstrap 3</li>
+  <li>MySQL</li>
 </ul>
-1)Spring MVC
-2)Spring Data JPA
-3)Apache Tiles 
-4)Bootstrap 3
-5)MySQL
+
