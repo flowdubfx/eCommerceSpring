@@ -2,7 +2,10 @@
 
 Used:
 <ul>
-  <li>Spring MVC/li>
+  <li>Spring MVC</li>
+  <li>Spring MVC</li>
+  <li>Spring MVC</li>
+  <li>Spring MVC</li>
 </ul>
 1)Spring MVC
 2)Spring Data JPA
